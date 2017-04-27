@@ -43,14 +43,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 1rem 0 2rem 0;
 }
 
 .box {
   text-align: center;
-  width: 85%;
+  width: 75%;
+  display: flex;
 }
 
 h3 {
+  color: #680e39;
+  font-size: 1.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #680e39;
+  width: 75%;
+  text-align: center;
+}
+
+.box p {
+  margin-top: 1rem;
+}
+
+.box p {
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
