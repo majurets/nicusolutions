@@ -1,0 +1,121 @@
+/* === General Styles === */
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('./resources/fonts/texgyreadventor/texgyreadventor-regular-webfont.eot');
+    src: url('./resources/fonts/texgyreadventor/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./resources/fonts/texgyreadventor/texgyreadventor-regular-webfont.woff') format('woff'),
+         url('./resources/fonts/texgyreadventor/texgyreadventor-regular-webfont.ttf') format('truetype'),
+         url('./resources/fonts/texgyreadventor/texgyreadventor-regular-webfont.svg#texgyreadventorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  height: 100%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+* {
+  top: 0;
+  font-size: 16px;
+  margin: 0;
+  font-family: "Source Sans Pro";
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Source Sans Pro";
+}
+
+/* === Body Styles === */
+body {
+    height: 100%;
+    overflow: auto;
+}
+
+.contentcontainer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+/* === NavBar === */
+nav img {
+  width: auto;
+  height: 100%;
+  max-height: 4.25rem;
+  max-width: 22rem;
+}
+
+.logo {
+  width: 30%;
+  padding-left: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  background-color: #680e39;
+}
+
+nav ul {
+  padding-right: 2rem;
+}
+
+.fullmenu li {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "texgyreadventorregular";
+  font-size: 1rem;
+}
+
+.fullmenu li a:hover {
+  border-bottom: 2px solid white;
+  padding-bottom: 0.5rem;
+}
+
+/* === Footer === */
+footer {
+  background-color: #680e39;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  height: 5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  font-family: "texgyreadventorregular";
+}
+
+footer p {
+  font-family: "texgyreadventorregular";
+}
+
+.iconcontainer {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.icons i {
+  color: white;
+}
+
+.footertext {
+  display: flex;
+}

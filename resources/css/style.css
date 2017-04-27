@@ -1,0 +1,56 @@
+/* === General === */
+.main {
+  background-color: white;
+  margin-top: 4rem;
+  width: 100%;
+}
+
+
+/* === Jumbotron === */
+.jumbotron {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/60/ef/ee/60efee483eb1f618f8b445d0f409ad7c.png");
+  background-size: cover;
+  height: 30rem;
+  width: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.jumbotron h1 {
+  font-size: 3rem;
+  color: white;
+  font-family: "texgyreadventorregular";
+}
+
+.button {
+  background-color: #680e39;
+  color: white;
+  padding: 1rem 1rem;
+  margin-top: 1.5rem;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  font-family: "texgyreadventorregular";
+}
+
+/* === Info === */
+.information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  text-align: center;
+  width: 85%;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
