@@ -9,4 +9,25 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+  border-bottom: 1px solid #680e39;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
+  color: #680e39;
+
+}
+
+.linkcontainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 2rem auto;
+  width: 75%;
+}
+
+ul {
+  margin-top: 0.5rem;
+}
+
+.linkcontainer li a {
+  padding-left: 1rem;
+  color: black;
 }
