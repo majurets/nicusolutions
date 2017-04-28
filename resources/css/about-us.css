@@ -1,0 +1,30 @@
+h1 {
+  color: #680e39;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  color: #680e39;
+  font-size: 1.25rem;
+  padding: 0.5rem 0;
+}
+
+#photo {
+  background-image: url("file:///Users/bob/Desktop/nicusolutions/resources/photos/dad.jpg");
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+}
+
+.faculty {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}

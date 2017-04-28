@@ -1,0 +1,74 @@
+/* === General === */
+h1 {
+  color: #680e39;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  color: #680e39;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+
+/* === Certification Review === */
+.review {
+  width: 80%;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#program1 {
+  background-image: url("https://c1.staticflickr.com/4/3240/2933065540_dba2219089_b.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  width: 35rem;
+}
+
+#program2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b8/Old_Lake_County_Courthouse%2C_Crown_Point_Indiana._Located_in_the_Courthouse_Square_Historic_District.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  width: 35rem;
+}
+
+#program3 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/69/ParkRidgePickwick.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  width: 35rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  padding: 0.25rem 0;
+}
+
+h6 {
+  background-color: #680e39;
+  padding: 0.5rem;
+  margin: 0.75rem 0;
+}
+
+h6 a {
+  text-decoration: none;
+  color: white;
+}
+
+/* === Educational Programs === */
+.educational {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem;
+}

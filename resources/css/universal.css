@@ -43,6 +43,15 @@ body {
   display: flex;
 }
 
+.main {
+  background-color: white;
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* === NavBar === */
 nav img {
   width: auto;

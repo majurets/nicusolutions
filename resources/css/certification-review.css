@@ -1,0 +1,44 @@
+h1 {
+  color: #680e39;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+h4 {
+  color: #680e39;
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 0.75rem;
+  margin-top: 1rem;
+}
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.faculty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.faculty p, h5 {
+  padding: 0.15rem 0;
+}
+
+.accreditation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto 2rem auto;
+}
