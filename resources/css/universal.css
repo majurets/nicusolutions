@@ -61,7 +61,7 @@ nav img {
 }
 
 .logo {
-  width: 30%;
+  width: 20%;
   padding-left: 2rem;
 }
 
@@ -95,6 +95,80 @@ nav a {
 .fullmenu li a:hover {
   border-bottom: 2px solid white;
   padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 972px) {
+  nav a {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (min-width: 871px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .fullmenu {
+    display: none;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+}
+
+.dropbtn {
+  background-color: #eaebec;
+  color: black;
+  padding: 0.8rem 2rem;
+  font-family: "texgyreadventorregular";
+  margin-right: 2rem;
+}
+
+.dropbtn i {
+  padding-left: 1rem;
+}
+
+.dropcontent {
+  display: none;
+  position: absolute;
+  background-color: #eaebec;
+  z-index: 0;
+  margin-top: 3.4rem;
+}
+
+.dropcontent a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.dropcontent li a {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.2rem;
+  padding-left: 0.4rem;
+}
+
+.dropcontent a:hover {
+  background-color: #006dcc;
+  color: black;
+}
+
+.dropdown:hover .dropcontent {
+  display: flex;
+  flex-direction: column;
+  width: 8.61rem;
+  right: 0%;
+  margin-right: 2rem;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #eaebec;
+  color: black;
 }
 
 /* === Footer === */

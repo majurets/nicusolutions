@@ -43,6 +43,35 @@
   text-align: center;
   width: 75%;
   display: flex;
+  align-items: center;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  background-color: #eaebec;
+}
+
+.boximage {
+  width: 11rem;
+  height: 11rem;
+}
+
+.boxcontent {
+  width: 75%;
+  margin-left: 1.5rem;
+}
+
+#image1 {
+  background-image: url("https://ct1.medstarhealth.org/content/uploads/sites/7/2014/12/BabySm.jpg");
+  background-size: cover;
+}
+
+#image2 {
+  background-image: url("http://www.rrhospital.org/xthumb.php?f=fa6dd703ebb32bdf121a472366e95346Paediatric%20and%20Neonatal%20Care.jpg&s=350");
+  background-size: cover;
+}
+
+#image3 {
+  background-image: url("http://www.brighamandwomens.org/Departments_and_Services/obgyn/images/obgyn04.jpg");
+  background-size: cover;
 }
 
 h3 {
@@ -55,10 +84,17 @@ h3 {
 }
 
 .box p {
-  margin-top: 1rem;
-}
-
-.box p {
   font-weight: 300;
   font-size: 1.25rem;
+}
+
+/* === Media Queries === */
+@media only screen and (max-width: 775px) {
+  .boximage {
+    display: none;
+  }
+
+  .boxcontent {
+    width: 100%;
+  }
 }
